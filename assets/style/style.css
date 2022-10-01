@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    }
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+    background-color: rgb(113, 106, 173);
+    }
+
+    .hero-container {
+        width: 60%;
+        padding: 10px;
+        border: 1px solid rgb(55, 40, 115);
+        border-radius: 1%;
+        background-color: rgb(255, 255, 255);
+    }    
+
+.superhero {
+    display: inline-block;
+}
+
+
+.hero-info {
+    font-weight: bolder;
+}
+
+.btn-left,
+.btn-right {
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin: 8px;
+}
+
+.btn-left {
+    background-color: rgb(67, 67, 255); 
+}
+
+.btn-right {
+    background-color: rgb(226, 51, 74);
+}
